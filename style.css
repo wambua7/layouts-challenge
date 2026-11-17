@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: radial-gradient(circle at 80% 20%, rgba(111, 89, 220, 0.5) 0%, transparent 65%),
+    radial-gradient(circle at 15% 40%, rgba(145, 28, 209, 0.5) 0%, transparent 65%),
+    radial-gradient(circle at 20% 70%, rgba(44, 129, 234, 0.32) 0%, transparent 70%),
+    radial-gradient(circle at 80% 85%, rgba(56, 189, 248, 0.35) 0%, transparent 70%);    
 }
 .container{
     display: grid;
@@ -44,9 +51,15 @@
     padding: 12px;
     border: 2px solid teal;
     border-radius: 10px;
-    height: 100vh;
+    height: 100dvh;
     margin: 20px;
     background-color: skyblue;
+
+}
+.sample img{
+    width: 55%;
+    height: 55%;
+    margin-right: 10px;
 
 }
 .heading{
@@ -59,4 +72,44 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-weight: 300;
+}
+.submit{
+    position: relative;
+    top: 200px;
+    left: 150px;
+    padding: 20px;                     
+
+}
+.forms{
+    background-color: skyblue;
+    width: 60%;
+    height: 230px;
+    margin-bottom: 10px;
+    border: 2px solid teal;
+    border-radius: 8px;
+
+}
+input{
+    margin: 6px 0px;
+    font-size: 0.9em;
+}
+.sbt{
+    background-color: tomato;
+    border-radius: 4px;
+    padding: 6px;
+    cursor: pointer;
+}
+.sbt:hover{
+    background-color: yellowgreen;
+}
+.btn{
+    padding:7px;
+    margin-top: 10px;
+    background-color: skyblue;
+    border-radius: 12px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2em;
 }

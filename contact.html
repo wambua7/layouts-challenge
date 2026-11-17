@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main class="submit">
+    <h1 class="details">Customer Details Page</h1>
+    <form action="#submit" class="forms">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" required>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" > <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter your email" required> <br>
+        <label for="password">Password</label> 
+        <input type="password" required name="password"> <br>
+        <label for="gender">Choose gender</label>
+        <input type="radio" name="gender" id="male">Male
+        <input type="radio" name="gender" id="male">Female <br>
+        <label for="comment">Leave a comment below</label>
+        <textarea name="comment" id="msg">Write a message..</textarea> <br>
+        <label for="submit">Submit</label>
+        <input type="submit" class="sbt" name="submit">
+    </form>
+    <p >We hope to see you as soon as possible!Thank you for visiting us!</p>
+    <button class="btn">
+        <a href="index.html">Click to return to homepage</a>
+    </button>
+    </main>
 </body>
 </html>
