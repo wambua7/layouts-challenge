@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid: "header header header header" 100px
+         "sidebar content content content" 100px
+         "footer footer footer footer" 100px;
+    padding: 10px;
+    gap: 20px;
+    background-color: aliceblue;
+}
+.hero{
+    grid-area: header;
+    background-color: skyblue;
+    color: tomato;
+    padding: 0.5em;
+}
+.hero > p{
+    color: brown;
+}
+.aside{
+    grid-area: sidebar;
+    background-color: deepskyblue;
+    padding: 1em;
+}
+.main-area{
+    grid-area: content;
+    background-color: grey;
+    color: white;
+}
+.footer{
+    grid-area: footer;
+    background-color: skyblue;
+}
