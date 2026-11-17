@@ -36,3 +36,27 @@
     grid-area: footer;
     background-color: skyblue;
 }
+
+.sample{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    height: 100vh;
+    margin: 20px;
+    background-color: skyblue;
+
+}
+.heading{
+    text-align: center;
+    font-size: 22px;
+    margin: 10px;
+    text-decoration: underline;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
